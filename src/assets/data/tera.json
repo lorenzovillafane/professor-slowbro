@@ -1,0 +1,76 @@
+{
+    "tipos_pokemon": [
+      {
+        "tipo": "Agua",
+        "imagen": "src/assets/tera-logo/tera-agua.png"
+      },
+      {
+        "tipo": "Acero",
+        "imagen": "src/assets/tera-logo/tera-acero.png"
+      },
+      {
+        "tipo": "Bicho",
+        "imagen": "src/assets/tera-logo/tera-bicho.png"
+      },
+      {
+        "tipo": "Dragón",
+        "imagen": "src/assets/tera-logo/tera-dragon.png"
+      },
+      {
+        "tipo": "Eléctrico",
+        "imagen": "src/assets/tera-logo/tera-electrico.png"
+      },
+      {
+        "tipo": "Fantasma",
+        "imagen": "src/assets/tera-logo/tera-fantasma.png"
+      },
+      {
+        "tipo": "Fuego",
+        "imagen": "src/assets/tera-logo/tera-fuego.png"
+      },
+      {
+        "tipo": "Hada",
+        "imagen": "src/assets/tera-logo/tera-hada.png"
+      },
+      {
+        "tipo": "Hielo",
+        "imagen": "src/assets/tera-logo/tera-hielo.png"
+      },
+      {
+        "tipo": "Lucha",
+        "imagen": "src/assets/tera-logo/tera-lucha.png"
+      },
+      {
+        "tipo": "Normal",
+        "imagen": "src/assets/tera-logo/tera-normal.png"
+      },
+      {
+        "tipo": "Planta",
+        "imagen": "src/assets/tera-logo/tera-planta.png"
+      },
+      {
+        "tipo": "Psíquico",
+        "imagen": "src/assets/tera-logo/tera-psiquico.png"
+      },
+      {
+        "tipo": "Roca",
+        "imagen": "src/assets/tera-logo/tera-roca.png"
+      },
+      {
+        "tipo": "Siniestro",
+        "imagen": "src/assets/tera-logo/tera-siniestro.png"
+      },
+      {
+        "tipo": "Tierra",
+        "imagen": "src/assets/tera-logo/tera-tierra.png"
+      },
+      {
+        "tipo": "Veneno",
+        "imagen": "src/assets/tera-logo/tera-veneno.png"
+      },
+      {
+        "tipo": "Volador",
+        "imagen": "src/assets/tera-logo/tera-volador.png"
+      }
+    ]
+  }
