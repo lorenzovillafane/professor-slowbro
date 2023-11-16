@@ -56,19 +56,19 @@
         <div>
             <ul>
                 <li class="mb-1">
-                  <router-link class="block p-4 text-sm font-semibold text-black hover:bg-pink-50 hover:text-gray-400  rounded" to="/">HOME</router-link>
+                  <router-link class="block p-4 text-sm  text-black hover:bg-pink-50 hover:text-gray-400  rounded" to="/">HOME</router-link>
                 </li>
                 <li class="mb-1">
-                    <router-link class="block p-4 text-sm font-semibold text-black hover:bg-pink-50 hover:text-gray-400  rounded" to="/Vgc">VGC</router-link>
+                    <router-link class="block p-4 text-sm  text-black hover:bg-pink-50 hover:text-gray-400  rounded" to="/Vgc">VGC</router-link>
                 </li>
                 <li class="mb-1">
-                    <router-link class="block p-4 text-sm font-semibold text-black hover:bg-pink-50 hover:text-gray-400  rounded" to="/Tcg">TCG</router-link>
+                    <router-link class="block p-4 text-sm  text-black hover:bg-pink-50 hover:text-gray-400  rounded" to="/Tcg">TCG</router-link>
                 </li>
                 <li class="mb-1">
-                    <router-link class="block p-4 text-sm font-semibold text-black hover:bg-pink-50 hover:text-gray-400  rounded" to="/Unite">UNITE</router-link>
+                    <router-link class="block p-4 text-sm text-black hover:bg-pink-50 hover:text-gray-400  rounded" to="/Unite">UNITE</router-link>
                 </li>
                 <li class="mb-1">
-                    <router-link class="block p-4 text-sm font-semibold text-black hover:bg-pink-50 hover:text-gray-400 rounded"  to="/Forum">FORUM</router-link>
+                    <router-link class="block p-4 text-sm  text-black hover:bg-pink-50 hover:text-gray-400 rounded"  to="/Forum">FORUM</router-link>
                 </li>
             </ul>
         </div>
@@ -88,7 +88,9 @@ h1{font-family: 'Lilita One', sans-serif;
 -webkit-text-stroke-color: black;
 
 }
-li{font-family: 'Kanit', sans-serif;}
+li{font-family: 'Kanit', sans-serif;
+
+}
 
 
 
