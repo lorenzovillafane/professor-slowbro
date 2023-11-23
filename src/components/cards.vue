@@ -31,9 +31,7 @@ export default {
 <style  lang="scss" scoped>
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Kanit', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -46,10 +44,13 @@ code {
     monospace;
 }
 
+
 .cards{
  
   max-width: 300px;
   margin: 1rem auto;
+  display: flex;
+  justify-content: center;
  
   border-radius: .7rem;
  
@@ -73,10 +74,10 @@ code {
       object-fit: cover;
     }
     h2{font-size: 20px;
-    font-weight: bold;}
+    font-weight:500;}
     .description{
       margin: .5rem 0;
-      color: #000000;
+      color: #3d3d3d;
     }
     .cardInfo{
       display: flex;

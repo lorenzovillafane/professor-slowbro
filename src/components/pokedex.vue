@@ -30,7 +30,7 @@
           >
         </div>
         <ul class="type">
-          <h2>Type:</h2>
+          <h2>Type</h2>
           <li
             v-for="(type, key) in pokemonData.types"
             :key="key"
@@ -40,7 +40,7 @@
           </li>
         </ul>
         <ul class="stats">
-          <h2>Stats:</h2>
+          <h2>Stats</h2>
           <li
             v-for="(stat, key) in pokemonData.stats"
             :key="key"
@@ -105,7 +105,6 @@
   h2 {
     color: rgb(0, 0, 0);
     font-size: 30px;
-    font-weight: bold;
     padding: 5px;
     border-radius: 10%;
     margin: 10px;
@@ -200,6 +199,7 @@
 
     & .stats li {
       align-self: center; 
+      color:#3d3d3d;
         }
   }
   
@@ -210,7 +210,7 @@
   .type {
     & li {
       list-style: none;
-      color: rgb(0, 0, 0);
+      color:#3d3d3d;
       text-transform: uppercase;
     }
   }
