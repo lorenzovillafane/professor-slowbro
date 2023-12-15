@@ -314,6 +314,7 @@
         width: 90%;
       }
     }
+    
   }
   
   @media screen and (max-width: 400px) {
@@ -322,5 +323,6 @@
         text-align: center;
       }
     }
+    h1{font-size:45px;}
   }
   </style>

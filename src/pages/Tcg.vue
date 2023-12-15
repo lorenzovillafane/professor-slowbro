@@ -107,6 +107,18 @@ h2{    color: white;
   font-family: 'Kanit', sans-serif;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: black;
+  text-align: center;
 }
-
+@media(max-width: 670px) {
+    h2 {font-size: 50px;
+        -webkit-text-stroke-width: 2.5px;}
+}
+@media(max-width: 450px) {
+    h2 {font-size: 40px;
+        -webkit-text-stroke-width: 2px;}
+}
+@media(max-width: 350px) {
+    h2 {font-size: 30px;
+        -webkit-text-stroke-width: 1.5px;}
+}
 </style>

@@ -100,13 +100,25 @@ main {
     background-color: rgba(255, 255, 255, 0.45);
     
 }
-h2{    color: white;
+h2{ 
+    text-align: center;   
+    color: white;
     font-size: 60px;
   font-weight: bold;
   font-family: 'Kanit', sans-serif;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: black;
 }
-
-
+@media(max-width: 670px) {
+    h2 {font-size: 50px;
+        -webkit-text-stroke-width: 2.5px;}
+}
+@media(max-width: 450px) {
+    h2 {font-size: 40px;
+        -webkit-text-stroke-width: 2px;}
+}
+@media(max-width: 350px) {
+    h2 {font-size: 30px;
+        -webkit-text-stroke-width: 1.5px;}
+}
 </style>
